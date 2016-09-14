@@ -24,7 +24,7 @@ Installation
                     default_module: home
     ```
 
-  2. Make sure to give it a database to talk to as well. Place these lines under the `databases` section of your `config/config.yml` file and tweak as needed:
+  3. Make sure to give it a database to talk to as well. Place these lines under the `databases` section of your `config/config.yml` file and tweak as needed:
 
     ```
     mini_ticket:
@@ -34,7 +34,7 @@ Installation
             name: dinkly_app
     ```
 
-  3. Build the models - at the command line: `php tools/gen_models.php -s mini_ticket -p mini_ticket -i`
+  4. Build the models - at the command line: `php tools/gen_models.php -s mini_ticket -p mini_ticket -i`
 
 
 License
