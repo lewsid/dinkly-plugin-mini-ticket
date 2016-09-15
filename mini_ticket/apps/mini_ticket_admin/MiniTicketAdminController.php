@@ -6,14 +6,7 @@
  * @subpackage AppsMiniTicketController
  * @author     Christopher Lewis <lewsid@lewsid.com>
  */
-class MiniTicketAdminController extends Dinkly
+class MiniTicketAdminController extends BaseMiniTicketAdminController
 {
-	/**
-	 * Default Constructor
-	 *
-	 */
-	public function __construct()
-	{
-		return true;
-	}
+	//Put overrides here...
 }
