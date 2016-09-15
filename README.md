@@ -17,9 +17,8 @@ Installation
     mini_ticket:
             apps:
                 mini_ticket_admin:
-                    app_name: MiniTicketAdmin
-                    is_plugin: true
                     base_href: /ticket
+                    app_name: MiniTicketAdmin
                     enabled: true
                     default_module: home
     ```
