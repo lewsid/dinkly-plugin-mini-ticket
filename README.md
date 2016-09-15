@@ -25,7 +25,7 @@ Installation
 
   3. Make sure to give it a database to talk to as well. Place these lines under the `databases` section of your `config/config.yml` file and tweak as needed:
 
-    ```
+    ```yaml
     mini_ticket:
             host: localhost
             user: root
